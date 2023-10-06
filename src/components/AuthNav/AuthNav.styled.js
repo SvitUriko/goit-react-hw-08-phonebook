@@ -1,6 +1,7 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const NavLinkStyled = styled.link`
+export const NavLinkStyled = styled(NavLink)`
   display: inline-block;
   text-decoration: none;
   padding: 12px;
